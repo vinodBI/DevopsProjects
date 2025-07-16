@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hello...
 
 This is first project on Maven
@@ -17,6 +18,18 @@ Project completed. Push it to git hub repository.
 git remote add origin https://github.com/vinodBI/DevopsProjects.git
 git branch -M main
 git push -u origin main
+=======
+Project Objectives:
+
+1. Setup a basic project ( using maven archetypes(internal repo))
+2. Configure inheritance between projects
+3. Modify projects using profiles
+4. Setup a project using the archetype plugin
+
+   Note: Standard directory layout need to be followed as it is very important for how maven performs
+
+5. Create a new Java project and pom.xml file from scracth using IDE IntelliJ
+>>>>>>> c9ac7d0 (maven-examples project is about creating blank java project files and pom.xml from scratch and changing the maven standary layout directory of source and target files in pom.xml)
 
 :wq
 

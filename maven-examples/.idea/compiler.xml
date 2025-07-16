@@ -6,11 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
-        <module name="quickstart-project" />
-=======
-        <module name="project2" />
->>>>>>> c9ac7d0 (maven-examples project is about creating blank java project files and pom.xml from scratch and changing the maven standary layout directory of source and target files in pom.xml)
+        <module name="maven-examples" />
       </profile>
     </annotationProcessing>
   </component>

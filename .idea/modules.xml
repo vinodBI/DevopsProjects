@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/mvnproject1.iml" filepath="$PROJECT_DIR$/.idea/mvnproject1.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/project2.iml" filepath="$PROJECT_DIR$/.idea/project2.iml" />
+>>>>>>> c9ac7d0 (maven-examples project is about creating blank java project files and pom.xml from scratch and changing the maven standary layout directory of source and target files in pom.xml)
     </modules>
   </component>
 </project>

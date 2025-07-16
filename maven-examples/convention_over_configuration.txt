@@ -1,0 +1,11 @@
+Standard directory layout of Maven
+in our pom.xml we never mentioned where the main.java is located but still when we run maven, it finds the main.java class file and creates main.class
+Instead of specifying the location of java source file we simply place the source files in the predefined location. This is called convention over configuration
+
+We can change the standard layout directory by giving customized path in the pom.xml for source and target files
+
+eg:
+<build>
+        <sourceDirectory>src/main/another-src</sourceDirectory> <!--new source directory with new java file named as Application-->
+        <directory>myTarget</directory> <!--new target directory to store Application.Class file -->
+    </build>
