@@ -19,9 +19,9 @@ git remote add origin https://github.com/vinodBI/DevopsProjects.git
 git branch -M main
 git push -u origin main
 =======
-Project Objectives:
+2nd Project Objectives:
 
-1. Setup a basic project ( using maven archetypes(internal repo))
+1. Setup a basic project 
 2. Configure inheritance between projects
 3. Modify projects using profiles
 4. Setup a project using the archetype plugin
@@ -31,6 +31,13 @@ Project Objectives:
 5. Create a new Java project and pom.xml file from scracth using IDE IntelliJ
 >>>>>>> c9ac7d0 (maven-examples project is about creating blank java project files and pom.xml from scratch and changing the maven standary layout directory of source and target files in pom.xml)
 
-:wq
+create a maven project from internal archetype
+mvn archetype:generate -DarchetyeCatalog=internal 
+created maven simple site project 9
+ 
+we will use this simple-site project pom file as parent file for the pom file in maven-examples project
+
+
+
 
 

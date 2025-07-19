@@ -1,0 +1,13 @@
+POM Inheritance
+
+Inheritance in Java concept of inheritance is one class derived from another
+like parent and child classes
+ 
+1. the same way one POM file can be derived from another POM file using inheritance. The configuration within parent POM is carried into child POM.
+2. Every POM is inherits from SUPERPOM
+
+SuperPOM linux path is
+/opt/apache-maven-3.9.10/lib/maven-model-builder-3.9.10.jar/org/apache/maven/model/pom-4.0.0.xml
+
+3. To see the child pom(your project pom file) with the inherited superpom run below command in terminal
+    mvn help:effective-pom

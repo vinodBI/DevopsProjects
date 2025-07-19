@@ -6,12 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-      </profile>
-      <profile name="Annotation profile for Maven Examples to practice" enabled="true">
-        <sourceOutputDir name="myTarget/generated-sources/annotations" />
-        <sourceTestOutputDir name="myTarget/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="maven-examples" />
+        <module name="simple-maven-site-with parent-pom" />
       </profile>
     </annotationProcessing>
   </component>
